@@ -1,0 +1,40 @@
+{
+  "name": "modern-dashboard",
+  "version": "1.0.0",
+  "description": "Modern dashboard with CSS 3/SASS, HTML 5, CSS Grid, Flexbox, WebPack, Babel - No framework",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasantos/modern-dashboard.git"
+  },
+  "keywords": [
+    "dashboard",
+    "css-grid",
+    "flexbox"
+  ],
+  "author": "Lucas Santos <lucas@lucasantos.com> (https://lucasantos.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasantos/modern-dashboard/issues"
+  },
+  "homepage": "https://github.com/lucasantos/modern-dashboard#readme",
+  "private": true,
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.1",
+    "ts-loader": "^7.0.4",
+    "typescript": "^3.9.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --mode=development",
+    "build": "webpack --mode=production"
+  }
+}

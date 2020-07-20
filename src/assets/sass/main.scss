@@ -1,0 +1,14 @@
+//General imports
+@import "mixins";
+@import "variables";
+@import "partials/typography";
+@import "partials/header";
+@import "partials/sidebar-left";
+@import "partials/sidebar-right";
+@import "partials/main";
+@import "partials/footer";
+
+// Components imports
+@import "partials/components/buttons";
+@import "partials/components/forms";
+@import "partials/components/modal";

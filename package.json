@@ -2,7 +2,6 @@
   "name": "modern-dashboard",
   "version": "1.0.0",
   "description": "Modern dashboard with CSS 3/SASS, HTML 5, CSS Grid, Flexbox, WebPack, Babel - No framework",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lucasantos/modern-dashboard.git"
@@ -26,6 +25,13 @@
     "@babel/preset-env": "^7.9.6",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.0.1",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
     "ts-loader": "^7.0.4",
     "typescript": "^3.9.2",
     "webpack": "^4.43.0",
@@ -36,5 +42,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --mode=development",
     "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19"
   }
 }

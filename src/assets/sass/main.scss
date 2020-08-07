@@ -2,6 +2,7 @@
 @import "mixins";
 @import "variables";
 @import "partials/typography";
+@import "partials/layout";
 @import "partials/header";
 @import "partials/sidebar-left";
 @import "partials/sidebar-right";
@@ -12,3 +13,6 @@
 @import "partials/components/buttons";
 @import "partials/components/forms";
 @import "partials/components/modal";
+
+// External styles
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";

@@ -1,0 +1,54 @@
+#app {
+    display: grid;
+    gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr 50px;
+    grid-template-areas: 
+    "header"
+    "main"
+    "sidebar-left"
+    "footer";
+    height: 100vh;
+
+    @include breakpoint(tablet) {
+        grid-template-columns: 70px 1fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "sidebar-left main main"
+            "sidebar-left footer footer";
+    }
+
+    @include breakpoint(large) {
+        grid-template-columns: 70px 2fr 230px;
+        grid-template-areas:
+            "header header header"
+            "sidebar-left main main"
+            "sidebar-left footer footer";
+    }
+
+    header,
+    main,
+    #sidebar-left,
+    footer {
+        padding: 15px 20px;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    #sidebar-left {
+        grid-area: sidebar-left;
+    }
+
+    main {
+        grid-area: main;
+
+        display: grid;
+        gap: 15px;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+}

@@ -1,0 +1,6 @@
+aside {
+    &#sidebar-left {
+        border-right: 1px solid map-get($base-colors, "gray");
+        background-color: $gray-lighter;
+    }
+}

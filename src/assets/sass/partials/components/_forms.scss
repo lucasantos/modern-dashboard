@@ -1,0 +1,12 @@
+input {
+    background-color: map-get($base-colors, "white");
+    border: 1px solid map-get($base-colors, "white");
+    padding: 10px 15px;
+    font-size: 16px;
+
+    &:focus {
+        border-color: #004188;
+        color: #0075D4;
+        box-shadow: none !important;
+    }
+}
